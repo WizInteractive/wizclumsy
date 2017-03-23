@@ -1,5 +1,5 @@
 {
-    "name": "clumsy/cms",
+    "name": "wizclumsy/cms",
     "description": "A CMS for Laravel",
     "keywords": ["laravel", "cms"],
     "license": "MIT",
