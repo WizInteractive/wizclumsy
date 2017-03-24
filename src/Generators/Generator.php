@@ -3,13 +3,13 @@
 namespace Wizclumsy\CMS\Generators;
 
 use Wizclumsy\CMS\Generators\Filesystem\File;
-use Illuminate\Console\AppNamespaceDetectorTrait;
+use Illuminate\Console\DetectsApplicationNamespace;
 use Illuminate\Support\Facades\File as Filesystem;
 use Illuminate\Support\Str;
 
 abstract class Generator
 {
-    use AppNamespaceDetectorTrait;
+    use DetectsApplicationNamespace;
 
     protected $psr4 = true;
 
