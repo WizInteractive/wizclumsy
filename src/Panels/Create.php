@@ -1,8 +1,8 @@
 <?php
 
-namespace Clumsy\CMS\Panels;
+namespace Wizclumsy\CMS\Panels;
 
-use Clumsy\CMS\Panels\Traits\Editable;
+use Wizclumsy\CMS\Panels\Traits\Editable;
 
 class Create extends Panel
 {

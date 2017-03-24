@@ -1,6 +1,6 @@
 <?php
 
-namespace Clumsy\CMS\Console;
+namespace Wizclumsy\CMS\Console;
 
 /**
  * Publish a Pivot Trait for arbitrary resource

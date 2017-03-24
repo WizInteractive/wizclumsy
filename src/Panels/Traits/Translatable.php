@@ -1,9 +1,9 @@
 <?php
 
-namespace Clumsy\CMS\Panels\Traits;
+namespace Wizclumsy\CMS\Panels\Traits;
 
-use Clumsy\CMS\Facades\International;
-use Clumsy\Utils\Library\Field;
+use Wizclumsy\CMS\Facades\International;
+use Wizclumsy\Utils\Library\Field;
 
 trait Translatable
 {

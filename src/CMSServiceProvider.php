@@ -1,15 +1,15 @@
 <?php
 
-namespace Clumsy\CMS;
+namespace Wizclumsy\CMS;
 
-use Clumsy\Assets\AssetsServiceProvider;
-use Clumsy\CMS\Clumsy;
-use Clumsy\CMS\Contracts\ShortcodeInterface;
-use Clumsy\CMS\Facades\Overseer;
-use Clumsy\CMS\Library\Shortcode;
-use Clumsy\CMS\Routing\ResourceRegistrar;
-use Clumsy\Eminem\EminemServiceProvider;
-use Clumsy\Utils\UtilsServiceProvider;
+use Wizclumsy\Assets\AssetsServiceProvider;
+use Wizclumsy\CMS\Clumsy;
+use Wizclumsy\CMS\Contracts\ShortcodeInterface;
+use Wizclumsy\CMS\Facades\Overseer;
+use Wizclumsy\CMS\Library\Shortcode;
+use Wizclumsy\CMS\Routing\ResourceRegistrar;
+use Wizclumsy\Eminem\EminemServiceProvider;
+use Wizclumsy\Utils\UtilsServiceProvider;
 use Illuminate\Foundation\AliasLoader;
 use Illuminate\Support\ServiceProvider;
 
@@ -141,7 +141,7 @@ class CMSServiceProvider extends ServiceProvider
     {
         $this->app['router']->group(
             [
-                'namespace'  => 'Clumsy\CMS\Controllers',
+                'namespace'  => 'Wizclumsy\CMS\Controllers',
                 'prefix'     => $this->app['config']->get('clumsy.cms.authentication-prefix'),
                 'middleware' => array_merge(
                     ['clumsy:init'],

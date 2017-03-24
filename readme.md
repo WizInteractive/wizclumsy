@@ -12,19 +12,19 @@ composer require clumsy/cms
 
 In the `config/app.php` file, add this to the `providers` key:
 ```php
-Clumsy\CMS\CMSServiceProvider::class,
+Wizclumsy\CMS\CMSServiceProvider::class,
 ```
 
 Optionally, you can set the following aliases:
 ```php
-'Clumsy' => Clumsy\CMS\Facades\Clumsy::class,
-'Overseer' => Clumsy\CMS\Facades\Overseer::class,
-'Shortcode' => Clumsy\CMS\Facades\Shortcode::class,
+'Clumsy' => Wizclumsy\CMS\Facades\Clumsy::class,
+'Overseer' => Wizclumsy\CMS\Facades\Overseer::class,
+'Shortcode' => Wizclumsy\CMS\Facades\Shortcode::class,
 ```
 
 Publish Clumsy configuration:
 ```
-php artisan vendor:publish --provider="Clumsy\CMS\CMSServiceProvider" --tag=config
+php artisan vendor:publish --provider="Wizclumsy\CMS\CMSServiceProvider" --tag=config
 ```
 
 Run migrations to get the admin area's authentication tables and media management tables:
@@ -177,7 +177,7 @@ Of course you can also override all Clumsy's views by resorting to Laravel's nat
 
 In order to publish Clumsy views:
 ```
-php artisan vendor:publish --provider="Clumsy\CMS\CMSServiceProvider" --tag=views
+php artisan vendor:publish --provider="Wizclumsy\CMS\CMSServiceProvider" --tag=views
 ```
 
 ## Legacy

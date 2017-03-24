@@ -1,10 +1,10 @@
 <?php
 
-namespace Clumsy\CMS\Support;
+namespace Wizclumsy\CMS\Support;
 
 use Illuminate\Http\Request;
 use Illuminate\Routing\UrlGenerator;
-use Clumsy\CMS\Support\ResourceNameResolver;
+use Wizclumsy\CMS\Support\ResourceNameResolver;
 
 class Bakery
 {

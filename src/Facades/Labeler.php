@@ -1,8 +1,8 @@
 <?php
 
-namespace Clumsy\CMS\Facades;
+namespace Wizclumsy\CMS\Facades;
 
-use Clumsy\CMS\Support\ResourceNameResolver;
+use Wizclumsy\CMS\Support\ResourceNameResolver;
 
 class Labeler extends \Illuminate\Support\Facades\Facade
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Clumsy\CMS\Generators\Compilers;
+namespace Wizclumsy\CMS\Generators\Compilers;
 
 class TemplateCompiler implements CompilerInterface
 {

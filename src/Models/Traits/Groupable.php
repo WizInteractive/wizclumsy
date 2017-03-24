@@ -1,8 +1,8 @@
 <?php
 
-namespace Clumsy\CMS\Models\Traits;
+namespace Wizclumsy\CMS\Models\Traits;
 
-use Clumsy\CMS\Models\Group;
+use Wizclumsy\CMS\Models\Group;
 use Illuminate\Database\Eloquent\Model as Eloquent;
 use Illuminate\Support\Facades\Event;
 

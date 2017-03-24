@@ -1,6 +1,6 @@
 <?php
 
-namespace Clumsy\CMS\Contracts;
+namespace Wizclumsy\CMS\Contracts;
 
 interface InternationalInterface
 {

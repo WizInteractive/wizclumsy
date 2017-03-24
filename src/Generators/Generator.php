@@ -1,8 +1,8 @@
 <?php
 
-namespace Clumsy\CMS\Generators;
+namespace Wizclumsy\CMS\Generators;
 
-use Clumsy\CMS\Generators\Filesystem\File;
+use Wizclumsy\CMS\Generators\Filesystem\File;
 use Illuminate\Console\AppNamespaceDetectorTrait;
 use Illuminate\Support\Facades\File as Filesystem;
 use Illuminate\Support\Str;

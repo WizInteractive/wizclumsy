@@ -1,6 +1,6 @@
 <?php
 
-namespace Clumsy\CMS\Panels\Traits;
+namespace Wizclumsy\CMS\Panels\Traits;
 
 trait Toggable
 {

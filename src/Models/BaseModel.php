@@ -1,9 +1,9 @@
 <?php
 
-namespace Clumsy\CMS\Models;
+namespace Wizclumsy\CMS\Models;
 
 use Illuminate\Database\Eloquent\Model as Eloquent;
-use Clumsy\CMS\Models\Traits\AdminResource;
+use Wizclumsy\CMS\Models\Traits\AdminResource;
 
 class BaseModel extends Eloquent
 {

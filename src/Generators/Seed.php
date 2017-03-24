@@ -1,10 +1,10 @@
 <?php
 
-namespace Clumsy\CMS\Generators;
+namespace Wizclumsy\CMS\Generators;
 
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\File as Filesystem;
-use Clumsy\CMS\Generators\Filesystem\File;
+use Wizclumsy\CMS\Generators\Filesystem\File;
 
 class Seed extends Generator
 {

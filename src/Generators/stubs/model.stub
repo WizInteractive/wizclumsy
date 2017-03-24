@@ -2,8 +2,8 @@
 
 namespace {{namespace}};
 
-use Clumsy\CMS\Models\BaseModel;
-use Clumsy\Eminem\Traits\Mediable;
+use Wizclumsy\CMS\Models\BaseModel;
+use Wizclumsy\Eminem\Traits\Mediable;
 {{pivotUseDeclarations}}
 class {{objectName}} extends BaseModel
 {

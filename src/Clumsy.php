@@ -1,9 +1,9 @@
 <?php
 
-namespace Clumsy\CMS;
+namespace Wizclumsy\CMS;
 
 use Closure;
-use Clumsy\CMS\Auth\Overseer;
+use Wizclumsy\CMS\Auth\Overseer;
 use Illuminate\Foundation\Application;
 use Illuminate\Foundation\AliasLoader;
 use Illuminate\Http\Request;
@@ -29,13 +29,13 @@ class Clumsy
         $this->auth = $auth;
         $this->app->instance('clumsy.auth', $auth);
 
-        $this->app['clumsy.view-resolver'] = $this->app->make('Clumsy\CMS\Support\ViewResolver');
+        $this->app['clumsy.view-resolver'] = $this->app->make('Wizclumsy\CMS\Support\ViewResolver');
         $this->view = $this->app['clumsy.view-resolver'];
 
         $this->app->instance('clumsy', $this);
 
         AliasLoader::getInstance()->alias('Form', 'Collective\Html\FormFacade');
-        AliasLoader::getInstance()->alias('Field', 'Clumsy\Utils\Facades\Field');
+        AliasLoader::getInstance()->alias('Field', 'Wizclumsy\Utils\Facades\Field');
         $this->app->register(ExcelServiceProvider::class);
 
         $adminAssets = include(__DIR__.'/assets/assets.php');
@@ -167,7 +167,7 @@ class Clumsy
 
         if ($fallback) {
             $identifier = last(explode('.', $identifier));
-            $namespace = 'Clumsy\\CMS\\Panels';
+            $namespace = 'Wizclumsy\\CMS\\Panels';
             $panel = studly_case($identifier);
             $class = "{$namespace}\\{$panel}";
             if (class_exists($class)) {
@@ -212,7 +212,7 @@ class Clumsy
         });
 
         Blade::directive('breadcrumb', function ($expression) {
-            return "<?php echo isset(\$panel) ? \$panel->getBakery()->render({$expression}) : with(app()->make('Clumsy\CMS\Support\Bakery'))->render({$expression}); ?>";
+            return "<?php echo isset(\$panel) ? \$panel->getBakery()->render({$expression}) : with(app()->make('Wizclumsy\CMS\Support\Bakery'))->render({$expression}); ?>";
         });
 
         Blade::directive('pivot', function ($expression) {

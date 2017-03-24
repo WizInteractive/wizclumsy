@@ -1,8 +1,8 @@
 <?php
 
-namespace Clumsy\CMS\Panels\Traits;
+namespace Wizclumsy\CMS\Panels\Traits;
 
-use Clumsy\CMS\Support\ExcelViewParser;
+use Wizclumsy\CMS\Support\ExcelViewParser;
 use HTTP;
 use InvalidArgumentException;
 use Illuminate\Support\Arr;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Clumsy\CMS\Controllers;
+namespace Wizclumsy\CMS\Controllers;
 
 use InvalidArgumentException;
 use Illuminate\Auth\Access\AuthorizationException;
@@ -9,8 +9,8 @@ use Illuminate\Foundation\Validation\ValidatesRequests;
 use Illuminate\Routing\Controller;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Foundation\Application;
-use Clumsy\CMS\Facades\Clumsy;
-use Clumsy\CMS\Models\BaseModel;
+use Wizclumsy\CMS\Facades\Clumsy;
+use Wizclumsy\CMS\Models\BaseModel;
 
 class APIController extends Controller
 {

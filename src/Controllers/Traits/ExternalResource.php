@@ -1,10 +1,10 @@
 <?php
 
-namespace Clumsy\CMS\Controllers\Traits;
+namespace Wizclumsy\CMS\Controllers\Traits;
 
 use Illuminate\Support\MessageBag;
 use Symfony\Component\HttpFoundation\Response as SymfonyResponse;
-use Clumsy\CMS\Facades\Labeler;
+use Wizclumsy\CMS\Facades\Labeler;
 
 trait ExternalResource
 {

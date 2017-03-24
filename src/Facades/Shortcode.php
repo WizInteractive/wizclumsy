@@ -1,6 +1,6 @@
 <?php
 
-namespace Clumsy\CMS\Facades;
+namespace Wizclumsy\CMS\Facades;
 
 class Shortcode extends \Illuminate\Support\Facades\Facade
 {
@@ -11,6 +11,6 @@ class Shortcode extends \Illuminate\Support\Facades\Facade
      */
     protected static function getFacadeAccessor()
     {
-        return '\Clumsy\CMS\Contracts\ShortcodeInterface';
+        return '\Wizclumsy\CMS\Contracts\ShortcodeInterface';
     }
 }

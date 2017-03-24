@@ -1,6 +1,6 @@
 <?php
 
-namespace Clumsy\CMS\Models;
+namespace Wizclumsy\CMS\Models;
 
 use Illuminate\Database\Eloquent\Model as Eloquent;
 

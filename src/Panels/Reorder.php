@@ -1,8 +1,8 @@
 <?php
 
-namespace Clumsy\CMS\Panels;
+namespace Wizclumsy\CMS\Panels;
 
-use Clumsy\CMS\Panels\Traits\Reorder as ReorderTrait;
+use Wizclumsy\CMS\Panels\Traits\Reorder as ReorderTrait;
 
 class Reorder extends Panel
 {

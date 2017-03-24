@@ -1,8 +1,8 @@
 <?php
 
-namespace Clumsy\CMS\Models\Traits;
+namespace Wizclumsy\CMS\Models\Traits;
 
-use Clumsy\CMS\Facades\International;
+use Wizclumsy\CMS\Facades\International;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model as Eloquent;
 

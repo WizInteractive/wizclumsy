@@ -1,9 +1,9 @@
 <?php
 
-namespace Clumsy\CMS\Controllers;
+namespace Wizclumsy\CMS\Controllers;
 
-use Clumsy\CMS\Auth\Overseer;
-use Clumsy\CMS\Controllers\AdminController;
+use Wizclumsy\CMS\Auth\Overseer;
+use Wizclumsy\CMS\Controllers\AdminController;
 use Illuminate\Foundation\Application;
 
 class UsersController extends AdminController

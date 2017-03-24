@@ -1,6 +1,6 @@
 <?php
 
-namespace Clumsy\CMS\Panels\Traits;
+namespace Wizclumsy\CMS\Panels\Traits;
 
 use Illuminate\Database\Eloquent\Model as Eloquent;
 use Illuminate\Pagination\LengthAwarePaginator;

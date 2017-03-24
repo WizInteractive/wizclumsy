@@ -1,8 +1,8 @@
 <?php
 
-namespace Clumsy\CMS\Panels;
+namespace Wizclumsy\CMS\Panels;
 
-use Clumsy\CMS\Panels\Traits\Index;
+use Wizclumsy\CMS\Panels\Traits\Index;
 
 class Table extends Panel
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace Clumsy\CMS\Generators\Filesystem;
+namespace Wizclumsy\CMS\Generators\Filesystem;
 
 use Illuminate\Filesystem\Filesystem;
-use Clumsy\CMS\Generators\Compilers\TemplateCompiler;
+use Wizclumsy\CMS\Generators\Compilers\TemplateCompiler;
 
 class File
 {

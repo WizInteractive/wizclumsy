@@ -1,6 +1,6 @@
 <?php
 
-namespace Clumsy\CMS\Facades;
+namespace Wizclumsy\CMS\Facades;
 
 class International extends \Illuminate\Support\Facades\Facade
 {
@@ -11,6 +11,6 @@ class International extends \Illuminate\Support\Facades\Facade
      */
     protected static function getFacadeAccessor()
     {
-        return '\Clumsy\CMS\Contracts\InternationalInterface';
+        return '\Wizclumsy\CMS\Contracts\InternationalInterface';
     }
 }

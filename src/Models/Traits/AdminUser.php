@@ -1,8 +1,8 @@
 <?php
 
-namespace Clumsy\CMS\Models\Traits;
+namespace Wizclumsy\CMS\Models\Traits;
 
-use Clumsy\CMS\Notifications\Auth\ResetPassword as ResetPasswordNotification;
+use Wizclumsy\CMS\Notifications\Auth\ResetPassword as ResetPasswordNotification;
 use Illuminate\Auth\Authenticatable;
 use Illuminate\Auth\Passwords\CanResetPassword;
 use Illuminate\Foundation\Auth\Access\Authorizable;

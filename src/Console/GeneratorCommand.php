@@ -1,9 +1,9 @@
 <?php
 
-namespace Clumsy\CMS\Console;
+namespace Wizclumsy\CMS\Console;
 
 use Illuminate\Console\Command;
-use Clumsy\CMS\Generators\Filesystem\FileAlreadyExists;
+use Wizclumsy\CMS\Generators\Filesystem\FileAlreadyExists;
 
 /**
  * Base generator command
@@ -40,7 +40,7 @@ abstract class GeneratorCommand extends Command
 
     protected function getGeneratorClass($model)
     {
-        return '\\Clumsy\\CMS\\Generators\\'.studly_case($model);
+        return '\\Wizclumsy\\CMS\\Generators\\'.studly_case($model);
     }
 
     protected function newGenerator($key)

@@ -1,13 +1,13 @@
 <?php
 
-namespace Clumsy\CMS\Panels;
+namespace Wizclumsy\CMS\Panels;
 
 use Illuminate\Session\Store as Session;
-use Clumsy\CMS\Support\Bakery;
-use Clumsy\CMS\Support\ResourceNameResolver;
-use Clumsy\CMS\Support\ViewResolver;
-use Clumsy\CMS\Facades\Clumsy;
-use Clumsy\Assets\Facade as Asset;
+use Wizclumsy\CMS\Support\Bakery;
+use Wizclumsy\CMS\Support\ResourceNameResolver;
+use Wizclumsy\CMS\Support\ViewResolver;
+use Wizclumsy\CMS\Facades\Clumsy;
+use Wizclumsy\Assets\Facade as Asset;
 
 abstract class Panel
 {

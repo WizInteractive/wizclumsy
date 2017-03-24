@@ -2,7 +2,7 @@
 
 namespace {{namespace}};
 
-use Clumsy\CMS\Panels\Table as BaseTable;
+use Wizclumsy\CMS\Panels\Table as BaseTable;
 
 class Table extends BaseTable
 {

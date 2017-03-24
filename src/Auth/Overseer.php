@@ -1,12 +1,12 @@
 <?php
 
-namespace Clumsy\CMS\Auth;
+namespace Wizclumsy\CMS\Auth;
 
 use Carbon\Carbon;
-use Clumsy\CMS\Models\BaseModel;
-use Clumsy\CMS\Models\Group;
-use Clumsy\CMS\Policies\UserPolicy;
-use Clumsy\CMS\Policies\BasePolicy;
+use Wizclumsy\CMS\Models\BaseModel;
+use Wizclumsy\CMS\Models\Group;
+use Wizclumsy\CMS\Policies\UserPolicy;
+use Wizclumsy\CMS\Policies\BasePolicy;
 use Illuminate\Auth\AuthManager;
 use Illuminate\Auth\Access\Gate;
 use Illuminate\Auth\Passwords\DatabaseTokenRepository as DbRepository;

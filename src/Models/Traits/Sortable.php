@@ -1,6 +1,6 @@
 <?php
 
-namespace Clumsy\CMS\Models\Traits;
+namespace Wizclumsy\CMS\Models\Traits;
 
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Support\Facades\DB;

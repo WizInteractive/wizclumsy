@@ -1,6 +1,6 @@
 <?php
 
-namespace Clumsy\CMS\Console;
+namespace Wizclumsy\CMS\Console;
 
 /**
  * Publish boilerplate for a Clumsy resource

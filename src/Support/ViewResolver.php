@@ -1,6 +1,6 @@
 <?php
 
-namespace Clumsy\CMS\Support;
+namespace Wizclumsy\CMS\Support;
 
 use Illuminate\View\Factory;
 

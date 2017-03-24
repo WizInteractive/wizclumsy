@@ -13,7 +13,7 @@
 	@foreach ($locales as $locale => $language)
 		<div class="tab-pane-translatable tab-pane{{ $locale === $first ? ' active' : '' }}" id="{{ $locale }}">
 		@foreach ($translatable as $i => $field)
-			@if ($field instanceof Clumsy\Utils\Library\Field)
+			@if ($field instanceof Wizclumsy\Utils\Library\Field)
 				{!! $field->name($model->localizeColumn($fieldColumns[$i], $locale)) !!}
 			@elseif ($field instanceof Illuminate\View\View)
 				{!! $field->with(compact('locale'))->render() !!}

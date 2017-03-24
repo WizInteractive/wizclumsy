@@ -1,6 +1,6 @@
 <?php
 
-namespace Clumsy\CMS\Controllers;
+namespace Wizclumsy\CMS\Controllers;
 
 use InvalidArgumentException;
 

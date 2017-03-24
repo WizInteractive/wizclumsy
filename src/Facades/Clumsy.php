@@ -1,6 +1,6 @@
 <?php
 
-namespace Clumsy\CMS\Facades;
+namespace Wizclumsy\CMS\Facades;
 
 class Clumsy extends \Illuminate\Support\Facades\Facade
 {

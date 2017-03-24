@@ -1,5 +1,5 @@
 <?php
-namespace Clumsy\CMS\Generators\Filesystem;
+namespace Wizclumsy\CMS\Generators\Filesystem;
 
 class FileAlreadyExists extends \Exception
 {

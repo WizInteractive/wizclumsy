@@ -1,6 +1,6 @@
 <?php
 
-namespace Clumsy\CMS\Controllers\Traits;
+namespace Wizclumsy\CMS\Controllers\Traits;
 
 trait RedirectsToIndex
 {

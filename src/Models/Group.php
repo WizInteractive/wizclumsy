@@ -1,8 +1,8 @@
 <?php
 
-namespace Clumsy\CMS\Models;
+namespace Wizclumsy\CMS\Models;
 
-use Clumsy\CMS\Facades\Overseer;
+use Wizclumsy\CMS\Facades\Overseer;
 
 class Group extends BaseModel
 {

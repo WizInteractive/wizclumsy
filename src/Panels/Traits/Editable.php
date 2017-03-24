@@ -1,12 +1,12 @@
 <?php
 
-namespace Clumsy\CMS\Panels\Traits;
+namespace Wizclumsy\CMS\Panels\Traits;
 
 use UnexpectedValueException;
 use Collective\Html\FormFacade as Form;
-use Clumsy\CMS\Panels\Traits\Translatable;
-use Clumsy\CMS\Panels\Traits\Location;
-use Clumsy\Utils\Facades\Field;
+use Wizclumsy\CMS\Panels\Traits\Translatable;
+use Wizclumsy\CMS\Panels\Traits\Location;
+use Wizclumsy\Utils\Facades\Field;
 
 trait Editable
 {

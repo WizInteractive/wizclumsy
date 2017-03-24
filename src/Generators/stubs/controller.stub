@@ -2,7 +2,7 @@
 
 namespace {{namespace}};
 
-use Clumsy\CMS\Controllers\AdminController;
+use Wizclumsy\CMS\Controllers\AdminController;
 
 class {{objectNamePlural}}Controller extends AdminController
 {

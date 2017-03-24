@@ -1,6 +1,6 @@
 <?php
 
-namespace Clumsy\CMS\Facades;
+namespace Wizclumsy\CMS\Facades;
 
 class Overseer extends \Illuminate\Support\Facades\Facade
 {

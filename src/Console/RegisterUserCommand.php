@@ -1,9 +1,9 @@
 <?php
 
-namespace Clumsy\CMS\Console;
+namespace Wizclumsy\CMS\Console;
 
-use Clumsy\CMS\Facades\Overseer;
-use Clumsy\CMS\Models\Group;
+use Wizclumsy\CMS\Facades\Overseer;
+use Wizclumsy\CMS\Models\Group;
 use Illuminate\Console\Command;
 use Illuminate\Support\Str;
 

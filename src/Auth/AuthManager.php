@@ -1,6 +1,6 @@
 <?php
 
-namespace Clumsy\CMS\Auth;
+namespace Wizclumsy\CMS\Auth;
 
 use Illuminate\Auth\AuthManager as LaravelAuthManager;
 

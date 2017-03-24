@@ -1,8 +1,8 @@
 <?php
 
-namespace Clumsy\CMS\Models\Traits;
+namespace Wizclumsy\CMS\Models\Traits;
 
-use Clumsy\CMS\Models\LocalChange;
+use Wizclumsy\CMS\Models\LocalChange;
 use Illuminate\Database\Eloquent\Model as Eloquent;
 
 trait Importable

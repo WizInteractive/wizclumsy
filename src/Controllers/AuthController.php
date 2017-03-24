@@ -1,10 +1,10 @@
 <?php
 
-namespace Clumsy\CMS\Controllers;
+namespace Wizclumsy\CMS\Controllers;
 
 use Carbon\Carbon;
-use Clumsy\CMS\Facades\Overseer;
-use Clumsy\CMS\Facades\Clumsy;
+use Wizclumsy\CMS\Facades\Overseer;
+use Wizclumsy\CMS\Facades\Clumsy;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
 use Illuminate\Foundation\Validation\ValidatesRequests;
 use Illuminate\Http\Request;

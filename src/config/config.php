@@ -42,7 +42,7 @@ return [
      |
      */
 
-    'authentication-model' => \Clumsy\CMS\Models\User::class,
+    'authentication-model' => \Wizclumsy\CMS\Models\User::class,
 
     /*
      |--------------------------------------------------------------------------

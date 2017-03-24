@@ -1,6 +1,6 @@
 <?php
 
-namespace Clumsy\CMS\Controllers\FrontEnd;
+namespace Wizclumsy\CMS\Controllers\FrontEnd;
 
 use Illuminate\Routing\Controller;
 use Illuminate\Support\Str;
@@ -10,8 +10,8 @@ use Illuminate\Support\Facades\Lang;
 use Illuminate\Support\Facades\Redirect;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Session;
-use Clumsy\CMS\Facades\International;
-use Clumsy\Utils\Facades\HTTP;
+use Wizclumsy\CMS\Facades\International;
+use Wizclumsy\Utils\Facades\HTTP;
 
 class InternationalController extends Controller
 {

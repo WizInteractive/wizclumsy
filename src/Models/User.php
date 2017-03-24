@@ -1,13 +1,13 @@
 <?php
 
-namespace Clumsy\CMS\Models;
+namespace Wizclumsy\CMS\Models;
 
 use Illuminate\Contracts\Auth\Authenticatable;
 use Illuminate\Contracts\Auth\Access\Authorizable;
 use Illuminate\Contracts\Auth\CanResetPassword;
-use Clumsy\CMS\Models\Traits\AdminResource;
-use Clumsy\CMS\Models\Traits\AdminUser;
-use Clumsy\CMS\Models\Traits\Groupable;
+use Wizclumsy\CMS\Models\Traits\AdminResource;
+use Wizclumsy\CMS\Models\Traits\AdminUser;
+use Wizclumsy\CMS\Models\Traits\Groupable;
 
 class User extends BaseModel implements Authenticatable, Authorizable, CanResetPassword
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Clumsy\CMS\Generators;
+namespace Wizclumsy\CMS\Generators;
 
 class ViewsFolder extends Generator
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace Clumsy\CMS\Library;
+namespace Wizclumsy\CMS\Library;
 
-use Clumsy\CMS\Contracts\ShortcodeInterface;
+use Wizclumsy\CMS\Contracts\ShortcodeInterface;
 
 class Shortcode implements ShortcodeInterface
 {

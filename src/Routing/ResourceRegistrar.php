@@ -1,6 +1,6 @@
 <?php
 
-namespace Clumsy\CMS\Routing;
+namespace Wizclumsy\CMS\Routing;
 
 use Illuminate\Routing\ResourceRegistrar as BaseResourceRegistrar;
 

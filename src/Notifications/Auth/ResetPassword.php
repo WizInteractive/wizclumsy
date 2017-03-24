@@ -1,8 +1,8 @@
 <?php
 
-namespace Clumsy\CMS\Notifications\Auth;
+namespace Wizclumsy\CMS\Notifications\Auth;
 
-use Clumsy\CMS\Notifications\MailMessage;
+use Wizclumsy\CMS\Notifications\MailMessage;
 use Illuminate\Auth\Notifications\ResetPassword as BaseResetPassword;
 
 class ResetPassword extends BaseResetPassword

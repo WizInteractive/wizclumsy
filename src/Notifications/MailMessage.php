@@ -1,6 +1,6 @@
 <?php
 
-namespace Clumsy\CMS\Notifications;
+namespace Wizclumsy\CMS\Notifications;
 
 use Illuminate\Notifications\Messages\MailMessage as BaseMailMessage;
 

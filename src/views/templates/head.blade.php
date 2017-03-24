@@ -18,7 +18,7 @@
         @include('clumsy::templates.alert')
     @show
 
-    @if (Clumsy\CMS\Facades\Overseer::check())
+    @if (Wizclumsy\CMS\Facades\Overseer::check())
 
         @include($navbarWrapper)
 

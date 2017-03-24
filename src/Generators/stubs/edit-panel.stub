@@ -2,7 +2,7 @@
 
 namespace {{namespace}};
 
-use Clumsy\CMS\Panels\Edit as BaseEdit;
+use Wizclumsy\CMS\Panels\Edit as BaseEdit;
 
 class Edit extends BaseEdit
 {

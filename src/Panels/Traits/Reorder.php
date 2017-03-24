@@ -1,8 +1,8 @@
 <?php
 
-namespace Clumsy\CMS\Panels\Traits;
+namespace Wizclumsy\CMS\Panels\Traits;
 
-use Clumsy\Assets\Facade as Asset;
+use Wizclumsy\Assets\Facade as Asset;
 
 trait Reorder
 {

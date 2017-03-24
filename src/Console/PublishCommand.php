@@ -1,6 +1,6 @@
 <?php
 
-namespace Clumsy\CMS\Console;
+namespace Wizclumsy\CMS\Console;
 
 use Illuminate\Console\Command;
 
@@ -33,9 +33,9 @@ class PublishCommand extends Command
     public function handle()
     {
         $packages = [
-            'Clumsy Utils'  => 'Clumsy\Utils\UtilsServiceProvider',
-            'Clumsy Eminem' => 'Clumsy\Eminem\EminemServiceProvider',
-            'Clumsy CMS'    => 'Clumsy\CMS\CMSServiceProvider',
+            'Clumsy Utils'  => 'Wizclumsy\Utils\UtilsServiceProvider',
+            'Clumsy Eminem' => 'Wizclumsy\Eminem\EminemServiceProvider',
+            'Clumsy CMS'    => 'Wizclumsy\CMS\CMSServiceProvider',
         ];
 
         foreach ($packages as $title => $provider) {
